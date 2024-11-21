@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.db98befb.css",
-    "main.js": "/react-gh-pages/static/js/main.f73c6f8c.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.db98befb.css.map": "/react-gh-pages/static/css/main.db98befb.css.map",
-    "main.f73c6f8c.js.map": "/react-gh-pages/static/js/main.f73c6f8c.js.map"
+    "main.css": "/skydot/static/css/main.db98befb.css",
+    "main.js": "/skydot/static/js/main.f73c6f8c.js",
+    "index.html": "/skydot/index.html",
+    "main.db98befb.css.map": "/skydot/static/css/main.db98befb.css.map",
+    "main.f73c6f8c.js.map": "/skydot/static/js/main.f73c6f8c.js.map"
   },
   "entrypoints": [
     "static/css/main.db98befb.css",
