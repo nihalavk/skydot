@@ -70,38 +70,38 @@
     {
       "icon": "fa fa-wordpress",
       "name": " Domestic Cargo Shipping",
-      "text": "SkyDots offers nationwide cargo services, ensuring your goods reach their destination quickly and securely within the country."
+      "text": "SkyDot offers nationwide cargo services, ensuring your goods reach their destination quickly and securely within the country."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": " fa fa-plane",
       "name": "International Cargo Shipping",
-      "text": "Expanding across borders, SkyDots connects you to any part of the world with reliable and timely international shipping services."
+      "text": "Expanding across borders, SkyDot connects you to any part of the world with reliable and timely international shipping services."
     },
     {
       "icon": "fa fa-cloud-download",
       "name": "Freight Forwarding",
-      "text": "From sea freight to air cargo, SkyDots handles all your freight forwarding needs. Whether you're sending large or bulky items, we manage logistics with precision."
+      "text": "From sea freight to air cargo, SkyDot handles all your freight forwarding needs. Whether you're sending large or bulky items, we manage logistics with precision."
     },
     {
       "icon": "fa fa-language",
       "name": "Temperature-Controlled Shipping",
-      "text": "Shipping sensitive items like pharmaceuticals, food, and perishable goods? SkyDots' temperature-controlled service ensures your cargo remains intact, no matter the conditions."
+      "text": "Shipping sensitive items like pharmaceuticals, food, and perishable goods? SkyDot' temperature-controlled service ensures your cargo remains intact, no matter the conditions."
     },
     {
-      "icon": "fa fa-plane",
+      "icon": "fa fa-cart-arrow-down",
       "name": " Heavy & Oversized Cargo",
-      "text": "Specialized equipment and expertise for transporting oversized or heavy cargo. With SkyDots, your large shipments will arrive safely and comply with all regulations."
+      "text": "Specialized equipment and expertise for transporting oversized or heavy cargo. With SkyDot, your large shipments will arrive safely and comply with all regulations."
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Packing & Loading Services",
-      "text": "Proper packing is essential for the safe transport of goods. SkyDots provides professional packing, wrapping, and loading services to secure your cargo during transit."
+      "text": "Proper packing is essential for the safe transport of goods. SkyDot provides professional packing, wrapping, and loading services to secure your cargo during transit."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Fantastic service! My shipment arrived on time and in perfect condition. I highly recommend SkyDots for reliable cargo solutions!\"",
+      "text": "\"Fantastic service! My shipment arrived on time and in perfect condition. I highly recommend SkyDot for reliable cargo solutions!\"",
       "name": "John Doe"
     },
     {
@@ -111,22 +111,22 @@
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"SkyDots has been a lifesaver for my business. Affordable, fast, and dependable – I trust them with all my shipments!\"",
+      "text": "\"SkyDot has been a lifesaver for my business. Affordable, fast, and dependable – I trust them with all my shipments!\"",
       "name": "Mark "
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"SkyDots makes international shipping easy and stress-free. My goods arrived on time and without any issues. I will definitely use them again.\"",
+      "text": "\"SkyDot makes international shipping easy and stress-free. My goods arrived on time and without any issues. I will definitely use them again.\"",
       "name": "Emily"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Impressed with the professionalism and reliability. SkyDots handled my large shipment with great care and delivered ahead of schedule.\"",
+      "text": "\"Impressed with the professionalism and reliability. SkyDot handled my large shipment with great care and delivered ahead of schedule.\"",
       "name": "David "
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"SkyDots provided exceptional service for my high-value shipment. The process was smooth, and I was kept updated every step of the way. Highly recommend!\"",
+      "text": "\"SkyDot provided exceptional service for my high-value shipment. The process was smooth, and I was kept updated every step of the way. Highly recommend!\"",
       "name": "Rachel "
     }
   ],
