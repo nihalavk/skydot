@@ -7,8 +7,7 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-          We offers reliable and efficient cargo solutions for both local and international shipments,
-           ensuring safe and timely deliveries.
+          Our company is committed to delivering exceptional service quality, ensuring every client experience reflects our dedication to excellence and reliability.
           </p>
         </div>
         <div className="row">

@@ -23,17 +23,24 @@ export const Contact = (props) => {
     
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.send("skydot_service","template_d0s77wj",{
+      to_name: "Team",
+      from_name: name,
+      message: message,
+      reply_to: email,
+    });
+
+    // emailjs
+    //   .sendForm("skydot_service", "template_d0s77wj", e.target, "YOUR_PUBLIC_KEY")
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       clearState();
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
   };
   return (
     <div>
@@ -124,14 +131,6 @@ export const Contact = (props) => {
                 {props.data ? props.data.email : "loading"}
               </p>
             </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa-home"></i> website
-                </span>{" "}
-                {props.data ? props.data.website : "loading"}
-              </p>
-            </div>
           </div>
           <div className="col-md-12">
             <div className="row">
@@ -158,16 +157,6 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      {/* <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
-          </p>
-        </div>
-      </div> */}
     </div>
   );
 };
