@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/skydot/static/css/main.db98befb.css",
-    "main.js": "/skydot/static/js/main.f73c6f8c.js",
+    "main.js": "/skydot/static/js/main.0d122a45.js",
     "index.html": "/skydot/index.html",
     "main.db98befb.css.map": "/skydot/static/css/main.db98befb.css.map",
-    "main.f73c6f8c.js.map": "/skydot/static/js/main.f73c6f8c.js.map"
+    "main.0d122a45.js.map": "/skydot/static/js/main.0d122a45.js.map"
   },
   "entrypoints": [
     "static/css/main.db98befb.css",
-    "static/js/main.f73c6f8c.js"
+    "static/js/main.0d122a45.js"
   ]
 }
