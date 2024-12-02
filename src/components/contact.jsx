@@ -15,7 +15,7 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
+  emailjs.init("OXlpsV8RTZSTsi-zW");
   
   const handleSubmit = (e) => {
     e.preventDefault();
