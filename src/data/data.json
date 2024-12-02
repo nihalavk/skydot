@@ -5,7 +5,7 @@
     "paragraph_1" : "Your trusted partner in transporting goods with care and precision"
   },
   "About": {
-    "paragraph": "SkyDot Exports is a leading cargo and logistics company dedicated to delivering your goods safely and on time. With years of experience in the industry, we offer reliable and affordable shipping solutions to both individuals and businesses, handling everything from small packages to large freight shipments.",
+    "paragraph": "Skydot Exports is a leading cargo and logistics company dedicated to delivering your goods safely and on time. With years of experience in the industry, we offer reliable and affordable shipping solutions to both individuals and businesses, handling everything from small packages to large freight shipments.",
     "Why": [
       "Timely Deliveries",
       "Affordable Pricing",
@@ -70,27 +70,27 @@
     {
       "icon": " fa fa-ship",
       "name": "International Cargo Shipping",
-      "text": "Expanding across borders, SkyDot connects you to any part of the world with reliable and timely international shipping services."
+      "text": "Expanding across borders, Skydot connects you to any part of the world with reliable and timely international shipping services."
     },
     {
       "icon": "fa fa-plane",
       "name": "Freight Forwarding",
-      "text": "From sea freight to air cargo, SkyDot handles all your freight forwarding needs. Whether you're sending large or bulky items, we manage logistics with precision."
+      "text": "From sea freight to air cargo, Skydot handles all your freight forwarding needs. Whether you're sending large or bulky items, we manage logistics with precision."
     },
     {
       "icon": "fa fa-sun-o",
       "name": "Temperature-Controlled Shipping",
-      "text": "Shipping sensitive items like pharmaceuticals, food, and perishable goods? SkyDot' temperature-controlled service ensures your cargo remains intact, no matter the conditions."
+      "text": "Shipping sensitive items like pharmaceuticals, food, and perishable goods? Skydot' temperature-controlled service ensures your cargo remains intact, no matter the conditions."
     },
     {
       "icon": "fa fa-archive",
       "name": " Heavy & Oversized Cargo",
-      "text": "Specialized equipment and expertise for transporting oversized or heavy cargo. With SkyDot, your large shipments will arrive safely and comply with all regulations."
+      "text": "Specialized equipment and expertise for transporting oversized or heavy cargo. With Skydot, your large shipments will arrive safely and comply with all regulations."
     },
     {
       "icon": "fa fa-crosshairs",
       "name": "Packing & Loading Services",
-      "text": "Proper packing is essential for the safe transport of goods. SkyDot provides professional packing, wrapping, and loading services to secure your cargo during transit."
+      "text": "Proper packing is essential for the safe transport of goods. Skydot provides professional packing, wrapping, and loading services to secure your cargo during transit."
     }
   ],
   "Testimonials": [
@@ -125,8 +125,8 @@
   "Contact": {
     "address": "Space Mall,4th Floor,Mavoor Road,Calicut-673004",
     "phone": "+91 70255 43571 , +91 7012797626",
-    "email": "mail@skydotexports.com",
-    "website": "www.skydotexports.com"
+    "email": "mail@Skydotexports.com",
+    "website": "www.Skydotexports.com"
   },
   "Features": [
     {
