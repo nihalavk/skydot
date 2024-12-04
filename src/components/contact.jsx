@@ -185,6 +185,11 @@ export const Contact = (props) => {
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
+                  <li>
+                    <a href={props.data ? props.data.whatsapp : "/"}>
+                      <i className="fa fa-whatsapp"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
