@@ -1,25 +1,34 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import { PhoneInput } from 'react-international-phone';
+import 'react-international-phone/style.css';
 
 const initialState = {
   name: "",
   email: "",
   message: "",
+  phone: ""
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, message, phone }, setState] = useState(initialState);
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
+  const handlePhoneChange = (phone) => {
+    setState((prevState) => ({ ...prevState, ['phone']: phone }));
+  }
+  
   const clearState = () => setState({ ...initialState });
   emailjs.init("OXlpsV8RTZSTsi-zW");
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
+    // console.log(name, email, message, phone);
     
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     
@@ -28,7 +37,13 @@ export const Contact = (props) => {
       from_name: name,
       message: message,
       reply_to: email,
+      phone_number: phone
+    }).then((result) => {
+      console.log(result.text);
+      clearState();
     });
+
+    clearState();
 
     // emailjs
     //   .sendForm("skydot_service", "template_d0s77wj", e.target, "YOUR_PUBLIC_KEY")
@@ -57,7 +72,7 @@ export const Contact = (props) => {
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <div className="form-group">
                       <input
                         type="text"
@@ -67,11 +82,12 @@ export const Contact = (props) => {
                         placeholder="Name"
                         required
                         onChange={handleChange}
+                        value={name}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <div className="form-group">
                       <input
                         type="email"
@@ -81,7 +97,21 @@ export const Contact = (props) => {
                         placeholder="Email"
                         required
                         onChange={handleChange}
+                        value={email}
                       />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="form-group">
+                    <PhoneInput
+                      defaultCountry="in"
+                      name="phone"
+                      placeholder="phone"
+                      required
+                      onChange={(phone) => handlePhoneChange(phone)}
+                      value={phone}
+                    />
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
@@ -95,7 +125,8 @@ export const Contact = (props) => {
                     placeholder="Message"
                     required
                     onChange={handleChange}
-                  ></textarea>
+                    value={message}
+                  >{message}</textarea>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
@@ -110,17 +141,20 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  Address
                 </span>
-                {props.data ? props.data.address : "loading"}
+                <i className="fa fa-map-marker"></i> {props.data ? props.data.address.calicut : "loading"}
+                <br/><br/>
+                <i className="fa fa-map-marker"></i> {props.data ? props.data.address.Thirupur : "loading"}
               </p>
             </div>
             <div className="contact-item">
               <p>
-                <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                {props.data ? props.data.phone.map((item, index) => (
+                  <span key={index}>
+                    <i className="fa fa-phone"></i> {item}
+                  </span>
+                )) : "loading"}
               </p>
             </div>
             <div className="contact-item">

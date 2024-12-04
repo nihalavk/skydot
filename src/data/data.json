@@ -123,10 +123,13 @@
     }
   ],
   "Contact": {
-    "address": "Space Mall,4th Floor,Mavoor Road,Calicut-673004",
-    "phone": "+91 70255 43571 , +91 7012797626",
-    "email": "mail@Skydotexports.com",
-    "website": "www.Skydotexports.com"
+    "address": {
+      "calicut": "Space Mall, 4th Floor, Mavoor Road, Calicut-673004",
+      "Thirupur": "Ultra Line Exports 25/7, Chikkanna College Road, Muthusamy Street Extension, Tirupur 641602"
+    },
+    "phone": ["+91 70255 43571","+91 70127 97626", "+91 75399 77033"],
+    "email": "mail@skydotexports.com",
+    "website": "www.skydotexports.com"
   },
   "Features": [
     {

@@ -600,6 +600,10 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+.react-international-phone-input-container .react-international-phone-input {
+  width: 100% !important;
+}
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
